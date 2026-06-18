@@ -3,19 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SmartPhone Hub</title>
+    <title>Phones - SmartPhone Hub</title>
 
-    <!-- Bootstrap CSS -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
     />
-
-    <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
         <a class="navbar-brand" href="index.html">SmartPhone Hub</a>
@@ -32,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
 
             <li class="nav-item">
@@ -40,7 +36,7 @@
             </li>
 
             <li class="nav-item">
-              <a class="nav-link" href="phones.html">Phones</a>
+              <a class="nav-link active" href="phones.html">Phones</a>
             </li>
 
             <li class="nav-item">
@@ -63,11 +59,51 @@
       </div>
     </nav>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-white text-center p-3">
-      <p>&copy; 2026 SmartPhone Hub. All Rights Reserved.</p>
-    </footer>
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <section class="container my-5">
+      <h1 class="text-center">Our Phones</h1>
+
+      <div class="row mt-4">
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/iphone17.jpg"
+              class="card-img-top"
+              alt="iPhone 17"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">iPhone 17</h5>
+              <p class="card-text">KSh 165,000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img
+              src="images/galaxys25.jpg"
+              class="card-img-top"
+              alt="Galaxy S25"
+            />
+
+            <div class="card-body">
+              <h5 class="card-title">Samsung Galaxy S25</h5>
+              <p class="card-text">KSh 120,000</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <img src="images/pixel10.jpg" class="card-img-top" alt="Pixel 10" />
+
+            <div class="card-body">
+              <h5 class="card-title">Google Pixel 10</h5>
+              <p class="card-text">KSh 110,000</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
